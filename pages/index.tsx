@@ -28,7 +28,7 @@ const Home: NextPage = () => {
               try it out!{" "}
               <Link href="/test" passHref>
                 <a className="italic">
-                  https://localhost:3000/
+                  https://shout-out-board-j8020ie07-mldc18.vercel.app/
                   <span className="text-sky-400">test</span>
                 </a>
               </Link>
