@@ -8,6 +8,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Shout-outs</title>
         <meta name="shout-out generator" content="Shout-out generator" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Karla&family=Rubik:wght@300;500&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <div className="font-Rubik font-light h-screen flex flex-col justify-center items-center p-10 lg:p-0">
         <div className="text-4xl lg:text-7xl tracking-tight text-center">
