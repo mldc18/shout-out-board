@@ -23,7 +23,7 @@ const Home: NextPage = () => {
               </span>
             </li>
             <li>add a message and submit</li>
-            <li>share this link to the one you're thankful for today</li>
+            <li>share this link to the one you&apos;re thankful for today</li>
             <li>
               try it out!{" "}
               <Link href="/test" passHref>
