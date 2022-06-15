@@ -69,7 +69,7 @@ const MessagesModal = (props: MessagesModalProps) => {
         there are no messages yet...
       </div>
     ) : (
-      <div className="overflow-y-scroll messages h-3/4 sm:h-[500px]">
+      <div className="overflow-y-scroll messages h-full sm:h-[500px]">
         {messageBoxes}
       </div>
     );
