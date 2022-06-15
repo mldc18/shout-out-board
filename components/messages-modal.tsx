@@ -45,8 +45,9 @@ const MessagesModal = (props: MessagesModalProps) => {
     }, 3000);
   }
 
-  const messageBoxes = messages.map((message) => (
+  const messageBoxes = messages.map((message, index) => (
     <MessageBox
+      key={index + 100}
       message={message.message}
       messageId={message.id}
       onClickDeleteMessage={deleteMessageHandler}
