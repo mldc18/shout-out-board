@@ -75,7 +75,7 @@ const ShoutOutPage = (props: ShoutOutPageProps) => {
     } else {
       setisPageRendered(true);
     }
-  }, [isPageRendered, handleCreateShoutout]);
+  }, [isPageRendered]);
 
   const displayContent = () => {
     if (pageStatus == 200) {
