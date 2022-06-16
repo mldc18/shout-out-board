@@ -10,7 +10,7 @@ const MessageBox = (props: MessageBoxProps) => {
   const { message, messageId, onClickDeleteMessage } = props;
 
   return (
-    <div className="flex border-solid border-2 rounded-lg p-4 text-black text-lg sm:text-xl md:text-3xl bg-inherit my-1 font-Karla">
+    <div className="flex border-solid border-2 rounded-lg p-4 text-black text-base sm:text-xl md:text-3xl bg-inherit my-1 font-Karla">
       <div className="mr-5">{message}</div>
 
       <div

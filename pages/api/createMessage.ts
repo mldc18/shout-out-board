@@ -24,9 +24,9 @@ const createMessage = async (req: NextApiRequest, res: NextApiResponse) => {
               message: "Message cannot be blank",
               status: 400,
             });
-          } else if (message.length >= 28) {
+          } else if (message.length >= 40) {
             res.status(400).json({
-              message: "Message is too long (28 char limit)",
+              message: "Make it short and sweet (40 char limit)",
               status: 400,
             });
           } else {
